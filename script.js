@@ -1,22 +1,23 @@
-//complete this code
 class Rectangle {
-	constructor(width,height){
+	constructor(width, height)
+	{
 		this.width=width;
 		this.height=height;
 	}
 	get getwidth(){
 		this.width=width;
 	}
-	get height(){
+	get getheight(){
 		this.height=height;
 	}
 	getArea(){
 		return this.width*this.height;
 	}
 }
-	
+
 class Square extends Rectangle {
-	constructor(side){
+	constructor(side)
+	{
 		super(side,side);
 	}
 	getPerimeter(){
